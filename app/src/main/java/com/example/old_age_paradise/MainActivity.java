@@ -39,6 +39,12 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
 
         }
+        if(id==R.id.rate_us)
+        {
+            Intent intent = new Intent(MainActivity.this,Rate_Us.class);
+            startActivity(intent);
+
+        }
         return super.onOptionsItemSelected(item);
     }
 

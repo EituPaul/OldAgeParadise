@@ -5,11 +5,7 @@ import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.transition.AutoTransition;
-import android.transition.TransitionManager;
 import android.view.View;
-import android.widget.ImageButton;
-import android.widget.LinearLayout;
 
 public class Services extends AppCompatActivity implements View.OnClickListener{
 
@@ -38,22 +34,22 @@ public class Services extends AppCompatActivity implements View.OnClickListener{
 
         if(v.getId()==R.id.Health_care)
         {
-            Intent intent = new Intent(Services.this,LogIn.class);
+            Intent intent = new Intent(Services.this, PersonDetails.class);
             startActivity(intent);
         }
         if(v.getId()==R.id.Entertainment)
         {
-            Intent intent = new Intent(Services.this,LogIn.class);
+            Intent intent = new Intent(Services.this, PersonDetails.class);
             startActivity(intent);
         }
         if(v.getId()==R.id.food_service)
         {
-            Intent intent = new Intent(Services.this,LogIn.class);
+            Intent intent = new Intent(Services.this, PersonDetails.class);
             startActivity(intent);
         }
         if(v.getId()==R.id.Counselling)
         {
-            Intent intent = new Intent(Services.this,LogIn.class);
+            Intent intent = new Intent(Services.this, PersonDetails.class);
             startActivity(intent);
         }
 
