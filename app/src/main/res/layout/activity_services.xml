@@ -13,6 +13,14 @@
     android:layout_marginRight="20dp"
     android:layout_marginLeft="20dp"
     android:layout_marginBottom="20dp">
+     <TextView
+         android:layout_marginTop="20dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="To get service request for any"
+         android:layout_gravity="center"
+         android:textSize="20sp"
+         android:textColor="@color/black"></TextView>
 
 
 
@@ -20,8 +28,9 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/Health_care"
         android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
         android:layout_height="200dp"
-        android:backgroundTint="@color/purple_200"
+        android:backgroundTint="@color/white"
         android:layout_marginTop="20dp">
         <LinearLayout
             android:layout_width="wrap_content"
@@ -38,6 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/service_name1"
+                android:textColor="@color/black"
                 android:textSize="30sp"
                 android:gravity="center"></TextView>
         </LinearLayout>
@@ -46,7 +56,9 @@
         android:id="@+id/food_service"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:backgroundTint="@color/purple_200"
+        android:backgroundTint="#9E1976D2"
+
+        app:cardCornerRadius="10dp"
         android:layout_marginTop="20dp"
        >
         <LinearLayout
@@ -63,6 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/service_name2"
+                android:textColor="@color/black"
                 android:textSize="30sp"
                 android:gravity="center"></TextView>
 
@@ -72,7 +85,9 @@
         android:id="@+id/Counselling"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:backgroundTint="@color/purple_200"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp"
+
         android:layout_marginTop="20dp">
         <LinearLayout
             android:layout_width="wrap_content"
@@ -88,6 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/service_name3"
+                android:textColor="@color/black"
                 android:textSize="30sp"
                 android:gravity="center"></TextView>
         </LinearLayout>
@@ -96,7 +112,8 @@
         android:id="@+id/Entertainment"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:backgroundTint="@color/purple_200"
+        android:backgroundTint="#9E1976D2"
+        app:cardCornerRadius="10dp"
         android:layout_marginTop="20dp">
         <LinearLayout
             android:layout_width="wrap_content"
@@ -112,6 +129,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/service_name4"
+                android:textColor="@color/black"
+                android:paddingRight="5dp"
                 android:textSize="25sp"
 
                 android:gravity="center"></TextView>

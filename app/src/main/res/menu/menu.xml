@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
 
-    <item
-        android:id="@+id/app_bar_search"
-        android:icon="@drawable/ic_search_black_24dp"
-        android:title="Search"
-        app:actionViewClass="android.widget.SearchView"
-        app:showAsAction="always" />
-    <item
-        android:id="@+id/profile"
-        android:title="Profile"
-        app:showAsAction="never" />
+    >
+
+
+   <item android:id="@+id/profile"
+       android:icon="@drawable/ic_baseline_person_pin_24"
+         android:title="Profile"
+
+        />
+
 
     <item android:title="Services"
         android:id="@+id/ID_Services"
@@ -20,14 +20,17 @@
 
 
     <item android:title="Donation" />
-    <item android:title="Reward" />
-    <item android:title="BlackList" />
-    <item android:title="Terms And Condition" />
-    <item android:title="Tips" />
-    <item android:title="Contact Us " />
+
+
+
+    <item android:title="Contact Us "
+        android:id="@+id/contact"/>
     <item android:title="About Us"
         android:id="@+id/about_us"/>
     <item android:title="Rate Us"
         android:id="@+id/rate_us"></item>
+ <item android:title="Admin"
+     android:id="@+id/admin"></item>
+
 
 </menu>

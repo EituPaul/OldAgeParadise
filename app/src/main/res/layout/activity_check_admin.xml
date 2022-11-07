@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorControlHighlight"
+    tools:context=".CheckAdmin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Admin Password"
+        android:textSize="25sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="200dp" android:layout_marginLeft="20dp"
+        ></TextView>
+    <EditText
+
+        android:layout_marginTop="30dp"
+        android:id="@+id/admin_password_edittext"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edittext_border_zit"
+        android:hint="Enter  Password for Admin LogIn"
+        android:inputType="textPassword"
+        ></EditText>
+    <Button
+        android:id="@+id/admin_verify_password_btn"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Verify password"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/purple_700"></Button>
+
+
+
+
+
+</LinearLayout>

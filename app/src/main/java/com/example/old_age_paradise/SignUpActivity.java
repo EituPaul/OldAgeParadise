@@ -47,8 +47,7 @@ public class  SignUpActivity extends AppCompatActivity {
 //             for a new register
                     case R.id.SignUpButton:
                         newusersignUp();
-//                        Intent ii1 = new Intent(getApplicationContext(), MainActivity.class);
-//                        startActivity(ii1);
+
                         break;
 
 
@@ -112,6 +111,13 @@ public class  SignUpActivity extends AppCompatActivity {
                     signUpprogress.setVisibility(View.GONE);
                     if (task.isSuccessful()) {
                         Toast.makeText(getApplicationContext(), "Register is Succesful", Toast.LENGTH_LONG).show();
+                        Intent ii1 = new Intent(getApplicationContext(), Profile.class); //edited from mainactivity to profile
+                        //mypart
+                        ii1.putExtra("key1email",email);
+                        ii1.putExtra("key2password",password);
+                        //endmypart
+
+                        startActivity(ii1);
                     } else {
                         Toast.makeText(getApplicationContext(), "Register is not Succesful", Toast.LENGTH_LONG).show();
 

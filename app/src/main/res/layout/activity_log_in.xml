@@ -54,6 +54,7 @@
         android:imeActionLabel="@string/action_sign_in_short"
         android:imeOptions="actionDone"
         android:inputType="textPassword"
+
         android:paddingStart="5dp"
         android:selectAllOnFocus="true"
         android:textColor="@color/black"

@@ -17,7 +17,7 @@ affection. Understanding their needs and concerns, will ensure their good health
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_user_name">User Name</string>
-
+    <string name="form_name">Name</string>
     <string name="prompt_password">Password</string>
     <string name="prompt_confirm_password">Confirm Password</string>
     <string name="action_sign_in">Sign in </string>
@@ -28,4 +28,37 @@ affection. Understanding their needs and concerns, will ensure their good health
     <string name="login_failed">"Login failed"</string>
     <string name="action_sign_up">Sign Up</string>
 
-    </resources>
+    <string-array name="sarray_veg">
+        <item> Tomato 30 taka  per kg</item>
+        <item> Mushroom 1000 taka per kg</item>
+        <item> Cabbage 20 taka per piece </item>
+        <item> Cauliflower 30 taka per kg</item>
+        <item> Cabbage 20 taka per piece </item>
+        <item> Cabbage 20 taka per piece </item>
+    </string-array>
+    <string-array name="sarray_fruit">
+        <item> Tomato 30 taka  per kg</item>
+        <item> Mushroom 1000 taka per kg</item>
+        <item> Cabbage 20 taka per piece </item>
+        <item> Cauliflower 30 taka per kg</item>
+        <item> Cabbage 20 taka per piece </item>
+        <item> Cabbage 20 taka per piece </item>
+    </string-array>
+    <string-array name="sarray_cookfood">
+        <item> Tomato 30 taka  per kg</item>
+        <item> Mushroom 1000 taka per kg</item>
+        <item> Cabbage 20 taka per piece </item>
+        <item> Cauliflower 30 taka per kg</item>
+        <item> Cabbage 20 taka per piece </item>
+        <item> Cabbage 20 taka per piece </item>
+    </string-array>
+    <string-array name="sarray_fastfood">
+        <item> Tomato 30 taka  per kg</item>
+        <item> Mushroom 1000 taka per kg</item>
+        <item> Cabbage 20 taka per piece </item>
+        <item> Cauliflower 30 taka per kg</item>
+        <item> Cabbage 20 taka per piece </item>
+        <item> Cabbage 20 taka per piece </item>
+    </string-array>
+
+</resources>

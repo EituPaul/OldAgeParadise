@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:fillViewport="true"
+    tools:context=".food_choice">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Category and Item"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#C21853"></TextView>
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:layout_marginTop="5dp"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
+       <com.google.android.material.imageview.ShapeableImageView
+           android:layout_width="170dp"
+           android:layout_height="200dp"
+           android:src="@drawable/vegetables"
+           android:layout_gravity="center"
+           app:shapeAppearanceOverlay="@style/roundedmedicalImage">
+       </com.google.android.material.imageview.ShapeableImageView>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Vegetables"
+                   android:textStyle="bold"
+                   android:textSize="30sp"
+                   android:textColor="#568E38"></TextView>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="See the available list"
+                   android:textSize="20sp"
+                   android:textColor="@color/black"></TextView>
+               <Spinner
+
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+
+                   android:entries="@array/sarray_veg"></Spinner>
+           </LinearLayout>
+       </LinearLayout>
+
+   </androidx.cardview.widget.CardView>
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+          android:layout_marginTop="5dp"
+          >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+              <com.google.android.material.imageview.ShapeableImageView
+                  android:layout_width="170dp"
+                  android:layout_height="200dp"
+                  android:src="@drawable/fruit"
+                  android:layout_gravity="center"
+                  app:shapeAppearanceOverlay="@style/roundedmedicalImage">
+              </com.google.android.material.imageview.ShapeableImageView>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Fruits"
+                      android:textStyle="bold"
+                      android:textSize="30sp"
+                      android:textColor="#568E38"></TextView>
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="See the available Fruit list"
+                      android:textSize="20sp"
+                      android:textColor="@color/black"></TextView>
+                  <Spinner
+
+                      android:layout_width="100dp"
+                      android:layout_height="match_parent"
+
+                      android:entries="@array/sarray_fruit"></Spinner>
+              </LinearLayout>
+          </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+          android:layout_marginTop="5dp"
+          >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+              <com.google.android.material.imageview.ShapeableImageView
+                  android:layout_width="170dp"
+                  android:layout_height="200dp"
+                  android:src="@drawable/cook_food"
+                  android:layout_gravity="center"
+                  app:shapeAppearanceOverlay="@style/roundedmedicalImage">
+              </com.google.android.material.imageview.ShapeableImageView>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Cook Dishes"
+                      android:textStyle="bold"
+                      android:textSize="30sp"
+                      android:textColor="#568E38"></TextView>
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="See the available Dishes"
+                      android:textSize="20sp"
+                      android:textColor="@color/black"></TextView>
+                  <Spinner
+
+                      android:layout_width="100dp"
+                      android:layout_height="match_parent"
+
+                      android:entries="@array/sarray_cookfood"></Spinner>
+              </LinearLayout>
+          </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+          android:layout_marginTop="5dp"
+          >
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+              <com.google.android.material.imageview.ShapeableImageView
+                  android:layout_width="170dp"
+                  android:layout_height="200dp"
+                  android:src="@drawable/fast_food"
+                  android:layout_gravity="center"
+                  app:shapeAppearanceOverlay="@style/roundedmedicalImage">
+              </com.google.android.material.imageview.ShapeableImageView>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Fast Food"
+                      android:textStyle="bold"
+                      android:textSize="30sp"
+                      android:textColor="#568E38"></TextView>
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="See the available item"
+                      android:textSize="20sp"
+                      android:textColor="@color/black"></TextView>
+                  <Spinner
+                      android:id="@+id/sp2"
+                      android:layout_width="100dp"
+                      android:layout_height="match_parent"
+
+                      android:entries="@array/sarray_fastfood"></Spinner>
+              </LinearLayout>
+          </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+      <EditText
+          android:layout_marginTop="10dp"
+          android:id="@+id/name"
+          android:layout_width="300dp"
+          android:layout_height="40dp"
+          android:paddingLeft="30dp"
+          android:layout_gravity="center"
+          android:background="@drawable/edittext_border_zit"
+          android:hint="Enter  name"
+          android:inputType="textPersonName"
+          ></EditText>
+      <EditText
+          android:layout_marginTop="10dp"
+          android:id="@+id/email"
+          android:layout_width="300dp"
+          android:layout_height="40dp"
+          android:paddingLeft="30dp"
+          android:layout_gravity="center"
+          android:background="@drawable/edittext_border_zit"
+          android:hint="Enter  Email"
+          android:inputType="textEmailAddress"
+          ></EditText>
+      <EditText
+          android:layout_marginTop="10dp"
+          android:id="@+id/contact"
+          android:layout_width="300dp"
+          android:layout_height="40dp"
+          android:paddingLeft="30dp"
+          android:layout_gravity="center"
+          android:background="@drawable/edittext_border_zit"
+          android:hint="Enter Contact No"
+          android:inputType="phone"
+          ></EditText>
+      <EditText
+          android:layout_marginTop="10dp"
+          android:id="@+id/address"
+          android:layout_width="300dp"
+          android:layout_height="40dp"
+          android:paddingLeft="30dp"
+          android:layout_gravity="center"
+          android:background="@drawable/edittext_border_zit"
+          android:hint="Enter Address"
+          android:inputType="textPostalAddress"
+          ></EditText>
+      <EditText
+          android:layout_marginTop="10dp"
+          android:id="@+id/item_name"
+          android:layout_width="300dp"
+          android:layout_height="40dp"
+          android:paddingLeft="30dp"
+          android:layout_gravity="center"
+          android:background="@drawable/edittext_border_zit"
+          android:hint="Enter  Item Name"
+          android:inputType="text"
+          ></EditText>
+      <EditText
+          android:layout_marginTop="10dp"
+          android:id="@+id/item_quantity"
+          android:layout_width="300dp"
+          android:layout_height="40dp"
+          android:paddingLeft="30dp"
+          android:layout_gravity="center"
+          android:background="@drawable/edittext_border_zit"
+          android:hint="Enter Quantity"
+          android:inputType="text"
+          ></EditText>
+      <EditText
+          android:layout_marginTop="10dp"
+          android:id="@+id/item_date"
+          android:layout_width="300dp"
+          android:layout_height="40dp"
+          android:paddingLeft="30dp"
+          android:layout_gravity="center"
+          android:background="@drawable/edittext_border_zit"
+          android:hint="Service Need End Date"
+          android:inputType="date"
+          ></EditText>
+      <EditText
+          android:layout_marginTop="10dp"
+          android:id="@+id/item_time"
+          android:layout_width="300dp"
+          android:layout_height="40dp"
+          android:paddingLeft="30dp"
+          android:layout_gravity="center"
+          android:background="@drawable/edittext_border_zit"
+          android:hint="Service Need End Time"
+          android:inputType="time"
+          >
+      </EditText>
+
+
+      <Button
+          android:id="@+id/food_order"
+          android:text="Order"
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"></Button>
+      <Button
+          android:id="@+id/food_back"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Back"
+          android:gravity="center"
+          android:layout_gravity="center"></Button>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

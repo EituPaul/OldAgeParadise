@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context=".Contact_us">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For any Query or Help contact us"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+
+        android:textColor="@color/black"
+
+        android:layout_marginTop="70dp"></TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Dial:"
+            android:textColor="@color/black"
+            android:background="@drawable/dialback"
+
+           android:padding="3dp"
+            android:gravity="center"
+            android:textSize="30sp"></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/call1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/imageiconback"
+
+            android:src="@drawable/ic_baseline_call_24"></ImageView>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="Dial:"
+                android:textColor="@color/black"
+                android:background="@drawable/dialback"
+
+                android:padding="3dp"
+                android:gravity="center"
+                android:textSize="30sp"></TextView>
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/call2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/imageiconback"
+
+                android:src="@drawable/ic_baseline_call_24"></ImageView>
+        </LinearLayout>
+    </LinearLayout>
+        <View
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30sp"
+            android:layout_gravity="center"
+            android:layout_width="3dp"
+            android:layout_height="150dp"
+
+            android:background="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"  android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="SMS:"
+                    android:textColor="@color/black"
+                    android:background="@drawable/dialback"
+
+                    android:padding="3dp"
+                    android:gravity="center"
+                    android:textSize="30sp"></TextView>
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/sms1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/imageiconback"
+
+                    android:src="@drawable/ic_baseline_message_24"></ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="SMS:"
+                    android:textColor="@color/black"
+                    android:background="@drawable/dialback"
+
+                    android:padding="3dp"
+                    android:gravity="center"
+                    android:textSize="30sp"></TextView>
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/sms2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/imageiconback"
+
+                    android:src="@drawable/ic_baseline_message_24"></ImageView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.imageview.ShapeableImageView
+
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/app_logo"
+
+        app:shapeAppearanceOverlay="@style/roundedmedicalImage"></com.google.android.material.imageview.ShapeableImageView>
+
+
+</LinearLayout>

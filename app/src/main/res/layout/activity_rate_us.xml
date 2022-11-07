@@ -5,9 +5,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     tools:context=".Rate_Us">
 
-    <RatingBar
+    <androidx.appcompat.widget.AppCompatRatingBar
         android:id="@+id/simpleRatingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,37 +16,49 @@
         android:layout_marginStart="85dp"
         android:layout_marginTop="61dp"
         android:layout_marginEnd="86dp"
-        android:background="#7ABB00FF"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:rating="2.5"
+        android:stepSize="1.0"
+        android:numStars="5"
+        android:rating="0"
+        android:padding="5dp"
+        android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+
+        android:layout_width="308dp"
+        android:layout_height="49dp"
         android:layout_marginStart="116dp"
-        android:layout_marginTop="49dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="95dp"
+        android:background="@drawable/edit_text_border"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="7dp"
         android:hint="Email"
         android:inputType="textEmailAddress"
+        android:padding="5dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/simpleRatingBar"></EditText>
 
     <EditText
         android:id="@+id/sendmessage"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_width="308dp"
+        android:layout_height="100dp"
         android:layout_marginStart="116dp"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="95dp"
+        android:background="@drawable/edit_text_border"
+        android:drawableLeft="@drawable/ic_baseline_message_24"
+        android:drawablePadding="7dp"
         android:hint="Send Message"
         android:inputType="text"
+        android:padding="5dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email"></EditText>
 
@@ -55,32 +68,83 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="105dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="106dp"
-        android:background="#7ABB00FF"
+
+        android:background="@drawable/btn_rounded_primary"
         android:padding="10dp"
         android:text="Submit"
         android:textColor="#fff"
-        android:textSize="20sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sendmessage" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="250sp"
+        android:layout_height="30dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/purple_700"
+        android:indeterminate="false"
+
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:progress="0"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/see_avg_rating"></ProgressBar>
+
+
+    <Button
+        android:id="@+id/see_avg_rating"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+
+        android:background="@drawable/btn_rounded_primary"
+        android:padding="10dp"
+        android:text="Average Rating"
+        android:textColor="#fff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitButton" />
 
     <Button
         android:id="@+id/see_feedBackButton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="28dp"
-        android:background="#7ABB00FF"
+        android:layout_marginStart="76dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_rounded_primary"
         android:padding="10dp"
-        android:text="see feedbacks"
+        android:text="See feedbacks"
         android:textColor="#fff"
-        android:textSize="20sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/submitButton" />
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <ProgressBar
+        android:id="@+id/signUploading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/see_feedBackButton"
+        app:layout_constraintVertical_bias="0.771" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
