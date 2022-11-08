@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F19898"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:fillViewport="true"
+    tools:context=".MedicalForm">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="Fill Out Patient Details"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.581"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonNameMedicalForm"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingStart="7dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddressMedicalForm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.582"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintVertical_bias="0.343" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddressMedicalForm"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.581"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextTextPersonNameMedicalForm" />
+
+        <EditText
+            android:id="@+id/editTextPhoneMedicalForm"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="Contact No."
+            android:inputType="phone"
+            android:paddingStart="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.593"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddressMedicalForm" />
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:paddingStart="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.583"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPhoneMedicalForm" />
+
+        <EditText
+            android:id="@+id/editTextNumberMedicalForm"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="number"
+            android:paddingStart="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.594"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPostalAddress" />
+
+        <EditText
+            android:id="@+id/editTextNumber2"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="Weight"
+            android:inputType="number"
+            android:paddingStart="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.601"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberMedicalForm" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Work Estimate:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.42"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="113dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="15dp"
+            android:checked="false"
+            android:text="Bathing"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="113dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="15dp"
+            android:checked="false"
+            android:text="feeding"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox1">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="113dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="15dp"
+            android:text="Nursing"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="113dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="15dp"
+            android:text="Physiotherapy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="113dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="15dp"
+            android:text="Washroom Assistance"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+        <EditText
+            android:id="@+id/editTextTime2MedicalForm"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:paddingStart="7dp"
+            android:hint="End Time"
+            android:inputType="time"
+            android:background="@drawable/edit_text_border"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox5"
+            tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/editTextStartDateMedicalForm"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:paddingStart="7dp"
+            android:hint="Start date"
+            android:inputType="date"
+            android:background="@drawable/edit_text_border"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTime2MedicalForm" />
+
+        <EditText
+            android:id="@+id/editTextEndDateMedicalForm"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="End date"
+            android:inputType="date"
+            android:paddingStart="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextStartDateMedicalForm" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ED420C"
+            android:text="Submit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.556"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextEndDateMedicalForm"
+            app:layout_constraintVertical_bias="0.057" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#ED420C"
+            android:text="Back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.556"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintVertical_bias="0.064" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoNeedPhychiatrist"
+    android:orientation="vertical">
+    <ScrollView android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+         <com.google.android.material.imageview.ShapeableImageView
+             android:id="@+id/imageView"
+             android:layout_width="200dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="30dp"
+             android:background="@drawable/img"
+             app:shapeAppearanceOverlay="@style/circularImage">
+
+         </com.google.android.material.imageview.ShapeableImageView>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text=" You are not depressed, you are just lonely.
+ You need some source of happiness in life."
+             android:textColor="#8E2808"
+             android:textStyle="bold"
+             android:textSize="15sp"
+             android:gravity="center">
+
+         </TextView>
+
+     </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <ImageView
+               android:id="@+id/img"
+               android:layout_width="200dp"
+               android:layout_height="150dp"
+               android:layout_margin="10dp"
+               android:layout_gravity="center"
+               android:src="@drawable/img_2"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="bottom"
+               android:layout_marginStart="8dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="5dp"
+               android:text="Gardening can make you feel more peaceful and content.gardening can reduce negative thoughts and feelings and can make you  feel better in the moment. Just spending time around plants eases stress for many people."
+               android:textSize="15sp"
+               android:textStyle="bold" />
+       </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:cardElevation="10dp"
+         app:cardCornerRadius="20dp"
+         android:layout_margin="10dp"
+         app:cardBackgroundColor="@color/white"
+         app:cardMaxElevation="12dp"
+         app:cardPreventCornerOverlap="true"
+         app:cardUseCompatPadding="true"
+         >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+             <ImageView
+                 android:id="@+id/img2"
+                 android:layout_width="200dp"
+                 android:layout_height="200dp"
+                 android:layout_margin="10dp"
+                 android:layout_gravity="center"
+                 android:src="@drawable/img4"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="bottom"
+                 android:layout_marginStart="8dp"
+                 android:layout_marginTop="10dp"
+                 android:layout_marginBottom="5dp"
+                 android:text="Meditation can give you a sense of calm, peace and balance that can benefit both your emotional well-being and your overall health. You can also use it to relax and cope with stress by refocusing your attention on something calming. Meditation can help you learn to stay centered and keep inner peace."
+                 android:textSize="15sp"
+                 android:textStyle="bold" />
+         </LinearLayout>
+     </androidx.cardview.widget.CardView>
+     <androidx.cardview.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:cardElevation="10dp"
+         app:cardCornerRadius="20dp"
+         android:layout_margin="10dp"
+         app:cardBackgroundColor="@color/white"
+         app:cardMaxElevation="12dp"
+         app:cardPreventCornerOverlap="true"
+         app:cardUseCompatPadding="true"
+         >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+             <ImageView
+                 android:id="@+id/img3"
+                 android:layout_width="200dp"
+                 android:layout_height="200dp"
+                 android:layout_margin="10dp"
+                 android:layout_gravity="center"
+                 android:src="@drawable/img_5"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="bottom"
+                 android:layout_marginStart="8dp"
+                 android:layout_marginTop="10dp"
+                 android:layout_marginBottom="5dp"
+                 android:text="Socialization among older adults not only keeps the brain sharp, but it can even decrease the risk of developing dementia and Alzheimer’s disease.Many aging adults are at risk of being isolated, which is one of the leading causes of depression among seniors. Isolation and loneliness can elicit feelings of despair or worthlessness. Socialization combats these depressive situations and allows people to feel loved and valued. The people we interact with and the activities we do in society affirm our sense of worth."
+                 android:textSize="15sp"
+                 android:textStyle="bold" />
+         </LinearLayout>
+     </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
+</LinearLayout>

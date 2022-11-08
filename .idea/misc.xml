@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/drawable-v24/edit_text_border.xml" value="0.16" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/drawable-v24/ic_baseline_add_ic_call_24.xml" value="0.1275" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/drawable/btn_rounded_primary.xml" value="0.16" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/drawable/dialback.xml" value="0.14" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/drawable/edittext_border_zit.xml" value="0.14" />
@@ -26,11 +27,15 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_admin.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_admin_see_orders.xml" value="0.2" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_check_admin.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_consult_physiatrist.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_contact_us.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_feedbacks.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_food_choice.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_log_in.xml" value="0.24583333333333332" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_medical_form.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_mental_health_care.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_no_need_phychiatrist.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_person_details.xml" value="0.24583333333333332" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_profi.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Old_Age_Paradise/app/src/main/res/layout/activity_profile.xml" value="0.2064814814814815" />

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MentalHealthCare"
+    android:orientation="vertical"
+    android:background="#83BEF8"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+
+    <ScrollView android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:background="#05123A"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Have you experienced feelings of intense worthlessness, depression, or
+thoughts of suicide?"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+    <RadioGroup android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    <RadioButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="Yes"
+        android:buttonTint="@color/white"
+        android:id="@+id/gameRd1"/>
+
+    <RadioButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="No"
+        android:buttonTint="@color/white"
+        android:id="@+id/notSelect1"/>
+
+</RadioGroup>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="vertical"
+        android:background="#05123A"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="Do you have people you can call or talk to when you’re lonely?"/>
+
+
+    -<RadioGroup android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    <RadioButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="Yes"
+        android:buttonTint="@color/white"
+        android:id="@+id/gameRd2"/>
+
+    <RadioButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="No"
+        android:buttonTint="@color/white"
+        android:id="@+id/notSelect2"/>
+
+</RadioGroup>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="vertical"
+        android:background="#05123A"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="Do you need help remembering which pills to take and when?
+?"/>
+
+
+    -<RadioGroup android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    <RadioButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="Yes"
+        android:buttonTint="@color/white"
+        android:id="@+id/gameRd3"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/white" android:text="No" android:buttonTint="@color/white" android:id="@+id/notSelect3"/>
+
+</RadioGroup>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="vertical" android:background="#05123A" android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="10dp" android:layout_marginBottom="10dp">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="Are you neglected by your family?"/>
+
+
+    -<RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/white" android:text="Yes" android:buttonTint="@color/white" android:id="@+id/gameRd4"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/white" android:text="No" android:buttonTint="@color/white" android:id="@+id/notSelect4"/>
+
+</RadioGroup>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="vertical"
+        android:background="#05123A"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="Are you often confused or forget where you are?"/>
+
+
+    -<RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <RadioButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="Yes"
+        android:buttonTint="@color/white"
+        android:id="@+id/gameRd5"/>
+
+    <RadioButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="No"
+        android:buttonTint="@color/white"
+        android:id="@+id/notSelect5"/>
+
+</RadioGroup>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="vertical"
+        android:background="#05123A"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="Do you still enjoy socializing?
+"/>
+
+
+    <RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    <RadioButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="Yes"
+        android:buttonTint="@color/white"
+        android:id="@+id/gameRd6"/>
+
+    <RadioButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="No"
+        android:buttonTint="@color/white"
+        android:id="@+id/notSelect6"/>
+
+</RadioGroup>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#05123A"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="Do you have activities and hobbies you enjoy doing?"/>
+
+
+    <RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="Yes"
+        android:buttonTint="@color/white"
+        android:id="@+id/gameRd7"/>
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="No"
+        android:buttonTint="@color/white"
+        android:id="@+id/notSelect7"/>
+
+</RadioGroup>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="vertical"
+        android:background="#05123A"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="Are you comfortable living on your own, or do you find
+        you feel unsafe?"/>
+
+
+    -<RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="Yes"
+        android:buttonTint="@color/white"
+        android:id="@+id/gameRd8"/>
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="No"
+        android:buttonTint="@color/white"
+        android:id="@+id/notSelect8"/>
+
+</RadioGroup>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingBottom="30dp"
+        android:gravity="center">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Submit"
+        android:id="@+id/mentalHealthSubmitBtn"
+        android:textAlignment="center"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

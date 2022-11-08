@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".ConsultPhysiatrist"
+    android:background="#FDFFFF"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+
+    <ScrollView android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/img_1"
+                app:shapeAppearanceOverlay="@style/circularImage">
+            </com.google.android.material.imageview.ShapeableImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are suffering from mental illness. You should consult with an Physciatrist."
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#F1BA5D">
+
+    </TextView>
+    </LinearLayout>
+
+
+        <LinearLayout android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="5"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="#AEB1B1"
+        android:textAlignment="center"
+        android:text="Dr. Mekhala Sarkar"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#AEB1B1"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="MBBS, FCPS (Psychiatry), Fellow WPA (Turkey) Mental Health Specialist And Psychiatrist National Institute of Mental Health And Hospital"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+    <ImageButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_add_ic_call_24"
+        android:id="@+id/psy_call1"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="5"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#AEB1B1"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Prof. Dr. M. A. Mohit Kamal"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:background="#AEB1B1"
+
+        android:text="MBBS, MPhil (Psychiatry), PhD (Psychiatry), FWPA (USA), CME-WCP Mental Diseases
+        Specialist And Psychiatrist National Institute of Mental Health And Hospital"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+    <ImageButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_add_ic_call_24"
+        android:id="@+id/psy_call2"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="5"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#AEB1B1"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Prof. Dr. Jhunu Shamsun Nahar"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:background="#AEB1B1"
+        android:textAlignment="center"
+        android:text="MBBS, FCPS (Psychiatry) , IFAPA (USA) Psychiatrist And Psychotherapist Bangabandhu Sheikh Mujib Medical University Hospital"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_add_ic_call_24"
+        android:id="@+id/psy_call3"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="5"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#AEB1B1"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Prof. Dr. Md. Shah Alam"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:background="#AEB1B1"
+        android:text="MBBS, FCPS (Psychiatry) Mental Diseases Specialist and
+        Psychotherapist National Institute of Mental Health And Hospital"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_add_ic_call_24"
+        android:id="@+id/psy_call4"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="5"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#AEB1B1"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Brig. Gen. Prof. Dr. Md. Azizul Islam"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:background="#AEB1B1"
+        android:textAlignment="center"
+        android:text="MBBS, FCPS (PSY), FRCP (UK), FACP (USA) Mental Diseases,
+        Drug Addiction And Psychiatry Specialist Armed Forces Medical College, Dhaka"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_add_ic_call_24"
+        android:id="@+id/psy_call5"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="5"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+
+    -<LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#AEB1B1"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Dr. Md. Mohsin Ali Shah"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:background="#AEB1B1"
+        android:text="MBBS, M.Phil (Psychiatry),
+        MD (Psychiatry) Mental Diseases, Drug Addiction, Sex Medicine And
+         Psychiatry Specialist Bangabandhu Sheikh Mujib Medical University Hospital"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+    <ImageButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_add_ic_call_24"
+         android:id="@+id/psy_call6"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

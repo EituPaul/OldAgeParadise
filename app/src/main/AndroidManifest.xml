@@ -82,6 +82,14 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+
+        //add_farja
+
+        <activity android:name=".NoNeedPhychiatrist" android:exported="false"/>
+        <activity android:name=".ConsultPhysiatrist" android:exported="false"/>
+        <activity android:name=".MedicalForm" android:exported="false"/>
+        <activity android:name=".MentalHealthCare" android:exported="false" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        //end_farja
     </application>
 
 </manifest>

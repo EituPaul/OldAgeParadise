@@ -34,12 +34,12 @@ public class Services extends AppCompatActivity implements View.OnClickListener{
 
         if(v.getId()==R.id.Health_care)
         {
-            Intent intent = new Intent(Services.this, Request_Medical_Service.class);
+            Intent intent = new Intent(Services.this, MedicalForm.class);
             startActivity(intent);
         }
         if(v.getId()==R.id.Entertainment)
         {
-            Intent intent = new Intent(Services.this, food_choice.class);
+            Intent intent = new Intent(Services.this, Request_Medical_Service.class);
             startActivity(intent);
         }
         if(v.getId()==R.id.food_service)
@@ -49,7 +49,7 @@ public class Services extends AppCompatActivity implements View.OnClickListener{
         }
         if(v.getId()==R.id.Counselling)
         {
-            Intent intent = new Intent(Services.this, food_choice.class);
+            Intent intent = new Intent(Services.this, MentalHealthCare.class);
             startActivity(intent);
         }
 

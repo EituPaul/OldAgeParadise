@@ -109,7 +109,7 @@ public class LogInActivity extends AppCompatActivity {
                     saveData();
 
 
-                    Intent intent = new Intent(getApplicationContext(),Profile.class);
+                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
 
                    /* //mypart start
                     intent.putExtra("key1email",email);
@@ -117,7 +117,7 @@ public class LogInActivity extends AppCompatActivity {
                     //end part*/
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
-                    Toast.makeText(getApplicationContext(), "Login succesful", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Login successful", Toast.LENGTH_LONG).show();
                 } else {
                     Toast.makeText(getApplicationContext(), "Login unsuccesful", Toast.LENGTH_LONG).show();
 
